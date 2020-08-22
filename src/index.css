@@ -1,0 +1,63 @@
+body {
+    background: white;
+}
+
+.container {
+    cursor: pointer; 
+    border-radius: 10px;
+    background: rgba(226, 175, 7, 0.829);
+}
+
+ul li {
+    list-style: none;
+    font-size: 1.6rem;
+    text-align: left;
+    color: rgb(55, 58, 61);
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+    border-bottom: 1px dashed black;
+}
+
+ul li:hover::after{
+    cursor: pointer;
+    content: "X";
+    float: right; 
+}
+
+input {
+    font-size: 1.3rem;
+    height: 2.5rem;
+    border: none;
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+}
+
+h1{
+    color: rgb(55, 58, 61);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+}
+
+#noTask{
+    color: midnightblue;
+    font-family: 'Courgette', cursive;
+    border:none;
+}
+#noTask:hover::after{
+    content: " ";
+}
+#cantidad {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.4rem;
+    color: rgb(247, 250, 253);
+}
+
+button{
+    font-family: 'Abril Fatface', cursive;
+    border: 2px solid grey;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+    width: 6.5rem;
+
+}
